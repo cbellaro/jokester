@@ -24,7 +24,7 @@ body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 8%;
+  padding-top: 5%;
   font-size: 16px;
   font-weight: bold;
 }
@@ -40,6 +40,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 .dislike-button{

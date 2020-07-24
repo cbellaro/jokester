@@ -6,10 +6,16 @@ class Buttons extends React.Component {
     like: false,
   }
   handleDislike = async dislikeJoke => {
-    this.setState({ dislike : !this.state.dislike })
+    this.setState({
+      dislike: !this.state.dislike,
+      like: false
+    })
   }
   handleLike = async likeJoke => {
-    this.setState({ like : !this.state.like })
+    this.setState({
+      like: !this.state.like,
+      dislike: false
+    })
   }
   render () {
     return (
